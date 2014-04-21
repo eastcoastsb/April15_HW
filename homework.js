@@ -1,4 +1,4 @@
-$(document).ready(function() {
+//$(document).ready(function() {
 
 var gallery = [
 	{
@@ -68,7 +68,7 @@ function Snowboard(company, name, type, isBroken) {
 	this.isBroken = isBroken;
 	this.crashed = function() {
 		this.isBroken = true;
-	}
+	};
 
 }
 
@@ -96,4 +96,4 @@ var secondBoard = new Snowboard("Capita", "Slasher", "Powder", false);
 
 
 
-});
+//});
